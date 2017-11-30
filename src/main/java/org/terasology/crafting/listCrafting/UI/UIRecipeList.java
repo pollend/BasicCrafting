@@ -15,8 +15,8 @@
  */
 package org.terasology.crafting.listCrafting.UI;
 
-import org.terasology.crafting.components.Recipe;
-import org.terasology.crafting.listCrafting.components.ListRecipe;
+import org.terasology.crafting.recipe.Recipe;
+import org.terasology.crafting.recipe.ListRecipe;
 import org.terasology.crafting.systems.IconManager;
 import org.terasology.crafting.systems.RecipeStore;
 import org.terasology.math.geom.Rect2i;

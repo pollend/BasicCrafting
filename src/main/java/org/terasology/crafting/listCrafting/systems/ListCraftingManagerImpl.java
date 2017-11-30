@@ -16,7 +16,7 @@
 package org.terasology.crafting.listCrafting.systems;
 
 import org.terasology.crafting.components.CraftingIngredientComponent;
-import org.terasology.crafting.listCrafting.components.ListRecipe;
+import org.terasology.crafting.recipe.ListRecipe;
 import org.terasology.crafting.systems.RecipeStore;
 import org.terasology.entitySystem.entity.EntityManager;
 import org.terasology.entitySystem.entity.EntityRef;

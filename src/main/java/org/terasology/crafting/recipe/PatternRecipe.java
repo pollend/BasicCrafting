@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.terasology.crafting;
+package org.terasology.crafting.recipe;
 
-import org.terasology.crafting.components.Recipe;
+import org.terasology.crafting.recipe.Recipe;
 
 /**
  * Test second recipe type

@@ -16,15 +16,12 @@
 package org.terasology.crafting.systems;
 
 import org.terasology.assets.management.AssetManager;
-import org.terasology.crafting.components.Recipe;
+import org.terasology.crafting.recipe.Recipe;
 import org.terasology.crafting.components.RecipeComponent;
 import org.terasology.entitySystem.Component;
-import org.terasology.entitySystem.entity.EntityRef;
-import org.terasology.entitySystem.event.ReceiveEvent;
 import org.terasology.entitySystem.prefab.Prefab;
 import org.terasology.entitySystem.systems.BaseComponentSystem;
 import org.terasology.entitySystem.systems.RegisterSystem;
-import org.terasology.logic.common.ActivateEvent;
 import org.terasology.registry.In;
 
 

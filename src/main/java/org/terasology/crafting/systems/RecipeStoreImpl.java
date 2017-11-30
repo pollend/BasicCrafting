@@ -16,7 +16,7 @@
 package org.terasology.crafting.systems;
 
 
-import org.terasology.crafting.components.Recipe;
+import org.terasology.crafting.recipe.Recipe;
 import org.terasology.entitySystem.systems.BaseComponentSystem;
 import org.terasology.entitySystem.systems.RegisterSystem;
 import org.terasology.registry.Share;

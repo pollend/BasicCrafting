@@ -15,6 +15,8 @@
  */
 package org.terasology.crafting.components;
 
+import org.terasology.crafting.recipe.Recipe;
+
 /**
  * The interface to represent a base component type
  */

@@ -16,7 +16,7 @@
 package org.terasology.crafting.systems;
 
 
-import org.terasology.crafting.components.Recipe;
+import org.terasology.crafting.recipe.Recipe;
 
 /**
  * Provides a centralised store for all recipes.

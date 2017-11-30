@@ -16,9 +16,11 @@
 package org.terasology.crafting.listCrafting.components;
 
 
-import org.terasology.crafting.components.Recipe;
+import org.terasology.crafting.recipe.Recipe;
 import org.terasology.crafting.components.RecipeComponent;
+import org.terasology.crafting.recipe.ListRecipe;
 import org.terasology.entitySystem.Component;
+import org.terasology.reflection.MappedContainer;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -44,5 +46,15 @@ public class ListRecipesComponent implements Component, RecipeComponent {
 
     public String getCategory() {
         return category;
+    }
+
+    /**
+     * This is the data structure that the user will input into in the prefab.
+     */
+    @MappedContainer
+    public static class ListRecipeContainer {
+        public Map<String, Integer> inputs;
+        public int outputCount;
+        public String output;
     }
 }

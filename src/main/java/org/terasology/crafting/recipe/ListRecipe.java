@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.terasology.crafting.listCrafting.components;
+package org.terasology.crafting.recipe;
 
 
-import org.terasology.crafting.components.Recipe;
+import org.terasology.crafting.listCrafting.components.ListRecipesComponent;
 
 import java.util.Map;
 
@@ -30,7 +30,7 @@ public class ListRecipe implements Recipe {
     public int outputCount;
     public String output = "";
 
-    public ListRecipe(ListRecipeContainer copy, String result) {
+    public ListRecipe(ListRecipesComponent.ListRecipeContainer copy, String result) {
         if (copy.inputs != null) {
             inputItems = new String[copy.inputs.size()];
             inputCounts = new int[copy.inputs.size()];
@@ -48,10 +48,10 @@ public class ListRecipe implements Recipe {
 
     @Override
     public String toString() {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (int i = 0; i < inputItems.length; i++) {
-            result += i > 0 ? " + " : "";
-            result += inputCounts[i] + "x" + inputItems[i];
+            result.append(i > 0 ? " + " : "");
+            result.append(inputCounts[i]).append("x").append(inputItems[i]);
         }
         return result + " = " + outputCount + "x" + output;
     }

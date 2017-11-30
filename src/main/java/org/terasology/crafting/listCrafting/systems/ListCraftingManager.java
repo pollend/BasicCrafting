@@ -15,7 +15,7 @@
  */
 package org.terasology.crafting.listCrafting.systems;
 
-import org.terasology.crafting.listCrafting.components.ListRecipe;
+import org.terasology.crafting.recipe.ListRecipe;
 import org.terasology.entitySystem.entity.EntityRef;
 
 public interface ListCraftingManager {
